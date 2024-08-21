@@ -20,6 +20,7 @@
 - Lista: Para exibir as tarefas adicionadas.
 - CheckBox ou botão: Para marcar uma tarefa como concluída.
 - Botão de exclusão: Para remover uma tarefa da lista.
+- Botao Editar: pra editar uma tarefa da lista.
 <br><br>
 
 ### Exemplo de funcionamento:
