@@ -1,2 +1,3 @@
-# Desafio 1 TodoNoew 
-- [ ] Botão de exclusão: Para remover uma tarefa da lista.
+# Desafio Java Script
+- [ x ] TodoNow (Lista de tarefa).
+- [ x ] Calculadora de IMC.
