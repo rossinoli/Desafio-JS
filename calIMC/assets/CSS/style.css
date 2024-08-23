@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    color:#fa843e;
+    margin-bottom: 20px;
+  }
+  
+  #resultado {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .IMCbaixoNormal{
+    color:#68bf71;
+  }
+
+  .IMCnormal{
+    color:#4cad60;
+  }
+
+  .IMCsobrepeso{
+    color:#439f54;
+  }
+
+  .IMCobesidadeGI{
+    color:#c3c57c;
+  }
+
+  .IMCobesidadeGII{
+    color:#ea9860;
+  }
+
+  .IMCobesidadeGIII{
+    color:#ed8061;
+  }
