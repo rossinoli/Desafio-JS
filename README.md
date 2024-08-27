@@ -3,3 +3,4 @@
 - [x] Calculadora de IMC.
 - [x] Calculadora de Reajuste Salarial(PromReajuste).
 - [x] Sistema de Calculo de Pedidos(SisCPedidos).
+- [x] Gerador de Tabuada(calTabuada).
