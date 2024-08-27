@@ -1,0 +1,58 @@
+.container {
+    width: 80%;
+    margin: 0 auto; /* Centraliza o container horizontalmente */
+    text-align: center; /* Centraliza o conteúdo dentro do container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.card {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+        label {
+            width: 120px; /* Ajuste a largura conforme necessário */
+            text-align: right;
+            margin-right: 10px;
+        }
+    
+        .input-container {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+    
+        .input-container input   
+     {
+            width: 150px; /* Ajuste a largura conforme necessário */
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    }
+
+
+.card input {
+    width: 100px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.card button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
