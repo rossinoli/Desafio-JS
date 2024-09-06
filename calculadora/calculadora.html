@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            width: 40px;
+        }
+    </style>
+</head>
+<body>
+    <input id="displayCalc" type="text">
+  <table>
+    <tr>
+        <td><button onclick="insere('7')">7</button></td>
+        <td><button onclick="insere('8')">8</button></td>
+        <td><button onclick="insere('9')">9</button></td>
+        <td><button onclick="operacao('/')">/</button></td>
+    </tr>
+    <tr>
+        <td><button onclick="insere('4')">4</button></td>
+        <td><button onclick="insere('5')">5</button></td>
+        <td><button onclick="insere('6')">6</button></td>
+        <td><button onclick="operacao('*')">*</button></td>
+    </tr>
+    <tr>
+        <td><button onclick="insere('1')">1</button></td>
+        <td><button onclick="insere('2')">2</button></td>
+        <td><button onclick="insere('3')">3</button></td>
+        <td><button onclick="operacao('-')">-</button></td>
+    </tr>
+    <tr>
+        <td><button onclick="insere('0')">0</button></td>
+        <td><button onclick="limpaDisplay()">c</button></td>
+        <td><button onclick="resultado()">=</button></td>
+        <td><button onclick="operacao('+')">+</button></td>
+    </tr>
+</table>  
+    <script src="js/calculadora.js"></script>
+</body>
+</html>
