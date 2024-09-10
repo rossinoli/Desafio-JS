@@ -20,7 +20,6 @@
 - Lista: Para exibir as tarefas adicionadas.
 - CheckBox ou botão: Para marcar uma tarefa como concluída.
 - Botão de exclusão: Para remover uma tarefa da lista.
-- Botao Editar: pra editar uma tarefa da lista.
 <br><br>
 
 ### Exemplo de funcionamento:
@@ -30,5 +29,5 @@
 3. A tarefa "Comprar leite" aparece na lista.
 4. Ao realizar a compra, o usuário marca a tarefa como concluída.
 5. A tarefa "Comprar leite" é removida da lista de tarefas pendentes ou marcada como concluída.
-<br>
+<br><br>
 

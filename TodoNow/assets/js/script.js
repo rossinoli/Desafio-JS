@@ -31,5 +31,19 @@ function adicionarTarefa() {
 
     // deixa o input nova tarefa string vazio
     document.getElementById('novaTarefa').value = '';
+    
+    // criar botao remover
+    const remover = document.createElement('button');
+    remover.textContent = 'Remover';
 
+    // click, a função definida é executada.
+    remover.onclick = function() {
+        if (confirm("Tem certeza que deseja remover esta tarefa?")) {
+            lista.removeChild(itemLista);
+        }
+    };
+
+    // adicionar o botao remover dentro da lista
+    itemLista.appendChild(remover);
+    lista.appendChild(itemLista);
 }
